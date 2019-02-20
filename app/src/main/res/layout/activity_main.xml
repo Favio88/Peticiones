@@ -10,10 +10,16 @@
 
 
     <Button
-        android:id="@+id/btn_peticion"
+        android:id="@+id/btn_jsonObject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Petición" />
+        android:text="JSON Object" />
+
+    <Button
+        android:id="@+id/btn_jsonArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Array"/>
 
     <TextView
         android:id="@+id/txtv_nombre"
